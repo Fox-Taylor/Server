@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+@media screen and (min-width: 40em) {
+    /* css for mid screens goes here */
+      section {
+          margin: 1rem;
+          display: grid;
+          grid-template-columns: auto auto;
+          grid-template-rows: none;
+          gap: 1rem;
+          background-color: cadetblue;
+      }
+      article {
+          margin: 0;
+          width: 100%;
+      }
+  }
+
+@media screen and (min-width: 60em) {
+  /* css for massive screens goes here */
+    section {
+        grid-template-columns: auto auto auto;
+        background-color: rgb(54, 148, 151);
+    }
+
+}
+
+a {font-size: 125%;}
+
+h1 {
+    text-align: center;
+    padding: 1rem;
+    border-bottom: solid 1px black;
+    /* changes font of h1 text */
+    font-family: "Lucida handwriting";
+}
+
+h2 {
+font-family: 'Franklin Gothic Medium';
+
+}
+
+article {
+    border: solid 1px black;
+    width: calc(100% - 2rem);
+    margin: 1rem 1rem;
+    font-family: 'papyrus';
+    font-size: 125%;
+}
+
+
+article header {
+    height: 24rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
